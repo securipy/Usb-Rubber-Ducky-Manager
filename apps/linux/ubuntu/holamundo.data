@@ -1,0 +1,19 @@
+[delimiter]
+key:(ig)
+
+[info]
+title: Hola mundo
+description: Version de hola mundo en gnome pidiendo el dato del nombre
+
+[data]
+nombre:Dame el nombre
+
+[script_command]
+cuak: 	DELAY 3000
+		ALT F2
+		DELAY 500
+		STRING gedit
+		DELAY 500
+		ENTER
+		DELAY 750
+		STRING Hola (ig)nombre(ig)!!
